@@ -1,0 +1,45 @@
+.landing {
+    width: 100vw; 
+    height: 700px; 
+}
+
+.landing img {
+    object-fit: cover; 
+    height: 700px; 
+    width: 100vw; 
+}
+
+.landing__trending__container {
+    display: flex; 
+    justify-content: space-evenly; 
+}
+.trending__location img {
+    width: 400px;
+    height: 300px;   
+}
+
+.landing__hosting {
+    margin-top: 30px; 
+}
+
+
+.landing__hosting__image {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 999;
+}
+
+.landing__hosting__image img {
+    width: 1200px; 
+    object-fit: cover; 
+    border-radius: 2.5%;
+}
+
+/* need z-index changes */
+.landing__hosting__content {
+    position: relative; 
+    top: 70px; 
+    left: 340px; 
+    font-size: 20px;
+}

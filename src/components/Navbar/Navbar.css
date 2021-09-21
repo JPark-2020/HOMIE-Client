@@ -1,7 +1,7 @@
 .navbar {
     display: flex; 
     justify-content: space-evenly; 
-    
+    padding: 12px; 
 }
 
 .navbar__experiences a {
