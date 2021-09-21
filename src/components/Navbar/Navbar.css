@@ -1,0 +1,15 @@
+.navbar {
+    display: flex; 
+    justify-content: space-evenly; 
+    
+}
+
+.navbar__experiences a {
+    margin-left: 20px; 
+    text-decoration: none; 
+    color: black; 
+}
+
+.navbar__logo {
+    justify-content: flex-start; 
+}
